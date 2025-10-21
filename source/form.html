@@ -28,6 +28,86 @@
     <h1 class="heading heading_big">Подбор программы</h1>
     <p class="heading heading_extra-small">Заполните анкету, и мы подберем программу питания для вашего кота</p>
 
+    <section class="main__section form">
+      <h2 class="visually-hidden">Форма анкеты</h2>
+      <form class="form__body" method="post" action="https://echo.htmlacademy.ru/">
+
+        <fieldset class="form__group field-group">
+          <legend class="visually-hidden">Данные кота</legend>
+          <label class="field">
+            <span class="field__lead">Имя:*</span>
+            <input class="field__input" name="cat-name" type="text" placeholder="Барсик" required> </label>
+          <label class="field">
+            <span class="field__lead">Вес (кг):*</span>
+            <input class="field__input" name="cat-weight" type="text" placeholder="7" required>
+          </label>
+          <label class="field">
+            <span class="field__lead">Возраст (лет):</span>
+            <input class="field__input" name="cat-age" type="text" placeholder="7">
+          </label>
+        </fieldset>
+
+        <fieldset class="form__group field-group">
+          <legend class="visually-hidden">Цель программы</legend>
+          <label class="control control--radio">
+            <input class="control__input" name="goal" type="radio" value="fit">
+            <span class="control__lead">Похудение</span>
+          </label>
+          <label class="control control--radio">
+            <input class="control__input" name="goal" type="radio" value="fitness">
+            <span class="control__lead">Набор массы</span>
+          </label>
+          <label class="control control--radio">
+            <input class="control__input" name="goal" type="radio" value="advice">
+            <span class="control__lead">Не знаю (нужен ваш совет)</span>
+          </label>
+        </fieldset>
+
+        <fieldset class="form__group field-group">
+          <legend class="field-group__heading heading">Контактные данные (владельца кота)</legend>
+          <label class="field">
+            <span class="field__lead">E-mail:*</span>
+            <input class="field__input" name="e-mail" type="email" placeholder="kuklachev@gmail.com" required>
+          </label>
+          <label class="field">
+            <span class="field__lead">Телефон:*</span>
+            <input class="field__input" name="phone" type="tel" placeholder="8 (960) 900-60-90" required>
+          </label>
+        </fieldset>
+
+        <div class="form__group field-group">
+          <label class="field-group__heading" for="comment">Комментарий</label>
+          <div class="field">
+            <textarea class="field__input" name="comment" id="comment" rows="5"
+              placeholder="Расскажите обо всех повадках кота"></textarea>
+          </div>
+        </div>
+
+        <fieldset class="form__group field-group">
+          <legend class="field-group__heading">Дополнительно</legend>
+          <label class="control control_checkbox">
+            <input class="control__input" name="additional" type="checkbox" value="sweetener" checked>
+            <span class="control__lead">Сахарозаменитель</span>
+          </label>
+          <label class="control control_checkbox">
+            <input class="control__input" name="additional" type="checkbox" value="water">
+            <span class="control__lead">Питьевая вода</span>
+          </label>
+          <label class="control control_checkbox">
+            <input class="control__input" name="additional" type="checkbox" value="milk">
+            <span class="control__lead">Молоко</span>
+          </label>
+          <label class="control control_checkbox">
+            <input class="control__input" name="additional" type="checkbox" value="vitamins">
+            <span class="control__lead">Витамины</span>
+          </label>
+        </fieldset>
+        <button class="form__button button" type="submit">Отправить заявку</button>
+        <small class="form__additional">* — Обязательные поля</small>
+
+      </form>
+    </section>
+
     <footer class="main__footer contacts">
       <h2 class="visually-hidden">Контакты</h2>
       <p class="contacts__heading">Приглашаем к сотрудничеству дилеров!</p>
