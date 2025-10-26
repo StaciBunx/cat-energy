@@ -152,8 +152,15 @@ li {
 }
 
 .promo {
+  position: relative;
   display: flex;
-  padding: 0 80px;
+  padding: 30px 80px 54px;
+  margin-bottom: 82px;
+
+  &__content {
+    width: 415px;
+    margin-bottom: 185px;
+  }
 
   &__heading {
     margin-bottom: 40px;
@@ -165,6 +172,13 @@ li {
 
   &__button {
     margin-top: 52px;
+    width: 244px;
+  }
+
+  &__image {
+    position: absolute;
+    right: 220px;
+    margin: 0 auto;
   }
 
 }

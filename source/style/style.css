@@ -124,8 +124,14 @@ li {
 }
 
 .promo {
+  position: relative;
   display: flex;
-  padding: 0 80px;
+  padding: 30px 80px 54px;
+  margin-bottom: 82px;
+}
+.promo__content {
+  width: 415px;
+  margin-bottom: 185px;
 }
 .promo__heading {
   margin-bottom: 40px;
@@ -135,4 +141,10 @@ li {
 }
 .promo__button {
   margin-top: 52px;
+  width: 244px;
+}
+.promo__image {
+  position: absolute;
+  right: 220px;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
