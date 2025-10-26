@@ -77,6 +77,14 @@ li {
   }
 }
 
+.text {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+}
+
 // Buttons
 
 .button {
@@ -180,5 +188,26 @@ li {
     right: 220px;
     margin: 0 auto;
   }
+}
 
+// Catalog-sections
+
+.catalog-sections {
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: 570px;
+    padding: 41px 52px 55px;
+    background-color: $basic-grey;
+  }
+
+  &__heading {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 73px;
+  }
 }
