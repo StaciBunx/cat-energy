@@ -113,7 +113,7 @@ li {
     z-index: -1;
     height: 694px;
     background-image:
-      $gradient;
+      $gradient, url("../img/index-background-desktop.png");
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
