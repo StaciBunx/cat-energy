@@ -205,9 +205,49 @@ li {
     background-color: $basic-grey;
   }
 
+  &__item_slim::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 106px;
+    background: url("../img/catalog-section-slim.svg"), no-repeat;
+  }
+
+  &_item_pro {
+    position: relative;
+  }
+
+  &__item_pro::before {
+    content: "";
+    position: absolute;
+    width: 134px;
+    height: 100px;
+    background: url("../img/catalog-section-pro.svg"), no-repeat;
+  }
+
+
   &__heading {
+    margin-bottom: 73px;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 73px;
+  }
+
+  &__link {
+    position: relative;
+    margin-top: 23px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+  }
+
+  &__link::after {
+    content: "";
+    position: absolute;
+    right: -60px;
+    top: 9px;
+    width: 32px;
+    height: 10px;
+    background: url("../img/link-arrow.svg"), no-repeat;
+
   }
 }
