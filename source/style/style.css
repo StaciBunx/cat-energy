@@ -162,6 +162,7 @@ li {
   justify-content: space-between;
 }
 .catalog-sections__item {
+  position: relative;
   width: 570px;
   padding: 41px 52px 55px;
   background-color: #f2f2f2;
@@ -169,16 +170,15 @@ li {
 .catalog-sections__item_slim::before {
   content: "";
   position: absolute;
+  left: 52px;
   width: 100px;
   height: 106px;
   background: url("../img/catalog-section-slim.svg"), no-repeat;
 }
-.catalog-sections_item_pro {
-  position: relative;
-}
 .catalog-sections__item_pro::before {
   content: "";
   position: absolute;
+  left: 33px;
   width: 134px;
   height: 100px;
   background: url("../img/catalog-section-pro.svg"), no-repeat;
