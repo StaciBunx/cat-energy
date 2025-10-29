@@ -185,12 +185,12 @@ li {
 }
 .catalog-sections__heading {
   margin-bottom: 73px;
+  padding-left: 162px;
   text-transform: uppercase;
-  text-align: center;
 }
 .catalog-sections__link {
   position: relative;
-  margin-top: 23px;
+  margin-top: 30px;
   font-size: 20px;
   text-transform: uppercase;
   color: #000;
