@@ -17,7 +17,6 @@ $gradient: linear-gradient(rgba(104, 183, 56, 0.85) 50%, rgba(104, 183, 56, 0.85
 *::before,
 *::after {
   box-sizing: border-box;
-
 }
 
 html {
@@ -198,6 +197,7 @@ li {
 // Catalog-sections
 
 .catalog-sections {
+  margin-bottom: 71px;
 
   &__wrapper {
 
@@ -253,5 +253,19 @@ li {
     width: 32px;
     height: 10px;
     background: url("../img/link-arrow.svg"), no-repeat;
+  }
+}
+
+// Process
+
+.process {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: 250px;
+    height: 280px;
   }
 }

@@ -159,6 +159,9 @@ li {
   margin: 0 auto;
 }
 
+.catalog-sections {
+  margin-bottom: 71px;
+}
 .catalog-sections__wrapper {
   display: flex;
   justify-content: space-between;
@@ -205,4 +208,13 @@ li {
   width: 32px;
   height: 10px;
   background: url("../img/link-arrow.svg"), no-repeat;
+}
+
+.process__list {
+  display: flex;
+  justify-content: space-between;
+}
+.process__item {
+  width: 250px;
+  height: 280px;
 }/*# sourceMappingURL=style.css.map */
