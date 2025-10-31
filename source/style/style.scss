@@ -17,6 +17,8 @@ $gradient: linear-gradient(rgba(104, 183, 56, 0.85) 50%, rgba(104, 183, 56, 0.85
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -24,8 +26,6 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0;
   min-width: 1220px;
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 14px;
