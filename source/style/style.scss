@@ -318,3 +318,17 @@ li {
   }
 
 }
+
+// Example
+
+.example {
+  border-top: none;
+  background-image: linear-gradient(to bottom, #fff 195px, transparent 195px), linear-gradient(to right, #f2f2f2 60%, #eaeaea 40%);
+  background-repeat: no-repeat;
+  background-position: bottom, top;
+  background-size: 100%;
+
+  &__wrapper {
+    display: flex;
+  }
+}

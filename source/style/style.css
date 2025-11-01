@@ -256,4 +256,15 @@ li {
   line-height: 100%;
   text-align: center;
   color: #f2f2f2;
+}
+
+.example {
+  border-top: none;
+  background-image: linear-gradient(to bottom, #fff 195px, transparent 195px), linear-gradient(to right, #f2f2f2 60%, #eaeaea 40%);
+  background-repeat: no-repeat;
+  background-position: bottom, top;
+  background-size: 100%;
+}
+.example__wrapper {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
