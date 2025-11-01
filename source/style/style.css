@@ -210,11 +210,50 @@ li {
   background: url("../img/link-arrow.svg"), no-repeat;
 }
 
+.process {
+  margin-bottom: 26px;
+}
+.process__heading {
+  margin-bottom: 32px;
+}
 .process__list {
   display: flex;
   justify-content: space-between;
 }
 .process__item {
+  position: relative;
   width: 250px;
   height: 280px;
+  padding-top: 151px;
+}
+.process__item::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  width: 80px;
+  height: 80px;
+}
+.process_leaf::before {
+  background: url("../img/process-leaf.svg"), no-repeat;
+}
+.process_powder::before {
+  background: url("../img/process-powder.svg"), no-repeat;
+}
+.process_meal::before {
+  background: url("../img/process-meal.svg"), no-repeat;
+}
+.process_weight::before {
+  background: url("../img/process-weight.svg"), no-repeat;
+}
+.process__item::after {
+  content: attr(data-number);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  font-weight: 400;
+  font-size: 280px;
+  line-height: 100%;
+  text-align: center;
+  color: #f2f2f2;
 }/*# sourceMappingURL=style.css.map */

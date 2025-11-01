@@ -259,13 +259,62 @@ li {
 // Process
 
 .process {
+  margin-bottom: 26px;
+
+  &__heading {
+    margin-bottom: 32px;
+  }
+
   &__list {
     display: flex;
     justify-content: space-between;
   }
 
   &__item {
+    position: relative;
     width: 250px;
     height: 280px;
+    padding-top: 151px;
   }
+
+  &__item::before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    width: 80px;
+    height: 80px;
+  }
+
+  &_leaf::before {
+    background: url("../img/process-leaf.svg"), no-repeat;
+  }
+
+
+  &_powder::before {
+    background: url("../img/process-powder.svg"), no-repeat;
+  }
+
+
+  &_meal::before {
+    background: url("../img/process-meal.svg"), no-repeat;
+  }
+
+
+  &_weight::before {
+    background: url("../img/process-weight.svg"), no-repeat;
+  }
+
+  &__item::after {
+    content: attr(data-number);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    font-weight: 400;
+    font-size: 280px;
+    line-height: 100%;
+    text-align: center;
+    color: $basic-grey;
+  }
+
 }
