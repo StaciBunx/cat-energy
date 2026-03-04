@@ -130,6 +130,28 @@ li {
 
 }
 
+//Footer
+
+.footer {
+  padding: 58px 0 58px;
+  background-color: $basic-grey;
+
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__developer {
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: $special-dark-grey;
+  }
+
+}
+
 .navigation {
   min-width: 478px;
   max-width: 720px;
