@@ -13,11 +13,12 @@ html {
 
 body {
   min-width: 1220px;
-  font-family: "Oswald", "Arial", sans-serif;
-  font-size: 14px;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 150%;
+  color: #444;
   background-color: white;
-  color: #000000;
 }
 
 a {
@@ -61,10 +62,6 @@ li {
 }
 
 .text {
-  font-family: "Arial", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
   color: #000000;
 }
 
@@ -285,7 +282,6 @@ li {
   margin-bottom: 146px;
 }
 .example__title {
-  font-family: "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 100%;
