@@ -298,4 +298,11 @@ li {
   text-transform: uppercase;
   text-align: center;
   color: #000;
+}
+
+.contacts__heading {
+  text-transform: uppercase;
+}
+.contacts__address {
+  color: #444;
 }/*# sourceMappingURL=style.css.map */
