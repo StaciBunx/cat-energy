@@ -339,29 +339,21 @@ li {
     margin-bottom: 146px;
   }
 
-
   &__title {
-    font-weight: 400;
     font-size: 14px;
     line-height: 100%;
     text-align: center;
-    color: $special-dark-grey;
   }
 
   &__definition {
-    font-weight: 400;
     font-size: 30px;
     line-height: 123%;
     text-align: center;
-    color: #000000;
   }
 
   &__spending {
-    font-weight: 400;
     font-size: 20px;
     line-height: 100%;
-    text-transform: uppercase;
-    color: #000000;
   }
 
 }
@@ -369,13 +361,9 @@ li {
 
 .switcher {
 
-  &__button {
-    font-family: "Oswald", "Arial", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
+  &__heading {
     text-transform: uppercase;
     text-align: center;
-    color: #000;
   }
 }
 

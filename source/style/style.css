@@ -282,34 +282,23 @@ li {
   margin-bottom: 146px;
 }
 .example__title {
-  font-weight: 400;
   font-size: 14px;
   line-height: 100%;
   text-align: center;
-  color: #444;
 }
 .example__definition {
-  font-weight: 400;
   font-size: 30px;
   line-height: 123%;
   text-align: center;
-  color: #000000;
 }
 .example__spending {
-  font-weight: 400;
   font-size: 20px;
   line-height: 100%;
-  text-transform: uppercase;
-  color: #000000;
 }
 
-.switcher__button {
-  font-family: "Oswald", "Arial", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
+.switcher__heading {
   text-transform: uppercase;
   text-align: center;
-  color: #000;
 }
 
 .contacts__heading {
