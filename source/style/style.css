@@ -207,17 +207,17 @@ li {
   text-transform: uppercase;
 }
 .catalog-sections__link {
+  display: inline-block;
   position: relative;
   margin-top: 30px;
   font-size: 20px;
   text-transform: uppercase;
-  color: #000;
 }
 .catalog-sections__link::after {
   content: "";
   position: absolute;
   right: -60px;
-  top: 9px;
+  top: 5px;
   width: 32px;
   height: 10px;
   background: url("../img/link-arrow.svg"), no-repeat;
