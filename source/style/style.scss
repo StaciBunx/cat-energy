@@ -137,6 +137,8 @@ li {
 
 }
 
+//Navigation
+
 .navigation {
   min-width: 478px;
   max-width: 720px;
@@ -153,8 +155,11 @@ li {
   }
 
   &__link {
-    color: #ffffff;
     text-transform: uppercase;
+  }
+
+  &__link_white {
+    color: #ffffff;
   }
 
   &__link_current::before {
@@ -163,7 +168,11 @@ li {
     width: 100%;
     height: 2px;
     top: 35px;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #000000;
+  }
+
+  &__link_current_white::before {
+    border-color: #ffffff;
   }
 }
 

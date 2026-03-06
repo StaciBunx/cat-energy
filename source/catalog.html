@@ -5,24 +5,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Каталог - Кэт энерджи: Функциональное питание для котов</title>
+  <link rel="stylesheet" href="../source/style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header class="header">
-    <div class="header__wrapper">
-      <a class="header__logo" href="">
+  <header class="header header__catalog">
+    <div class="header__wrapper center">
+      <a class="header__logo" href="./index.html">
         <img class="logo__image" src="./img/logo-desktop.svg" width="202" height="59" alt="Cat Energy">
       </a>
+
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="./index.html"
+              class="navigation__link heading heading_extra-small">Главная</a></li>
+          <li class=" navigation__item"> <a
+              class="navigation__link navigation__link_current heading heading_extra-small">Каталог продукции</a>
+          </li>
+          <li class="navigation__item"> <a href="./form.html"
+              class="navigation__link heading heading_extra-small">Подбор
+              программы</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav class="navigation">
-      <ul class="navigation__list">
-        <li class="navigation__item"><a href="./index.html" class="navigation__link">Главная</a></li>
-        <li class="navigation__item navigation__item_current"> <a class="navigation__link">Каталог продукции</a>
-        </li>
-        <li class="navigation__item"> <a href="./form.html" class="navigation__link">Подбор программы</a></li>
-      </ul>
-    </nav>
+
   </header>
+
 
   <main class="main">
     <h1 class="heading heading_big">Каталог продукции</h1>
