@@ -70,6 +70,10 @@ li {
   color: #000000;
 }
 
+.main__heading {
+  margin-bottom: 84px;
+}
+
 // Buttons
 
 .button {
@@ -386,5 +390,37 @@ li {
 
   &__address {
     color: $special-dark-grey;
+  }
+}
+
+//Catalog
+
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 80px;
+  row-gap: 63px;
+}
+
+//Card
+
+.card {
+  width: 245px;
+  height: 511px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px 40px 35px;
+  background: $gradient-card;
+
+  &__heading {
+    font-size: 20px;
+    line-height: 105%;
+    text-transform: uppercase;
+    text-align: center;
+    color: $special-dark-grey-2;
+  }
+
+  &__img {
+    order: -1;
   }
 }
