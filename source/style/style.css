@@ -342,4 +342,30 @@ li {
 }
 .card__img {
   order: -1;
+}
+
+.catalog-additional__heading {
+  margin-bottom: 81px;
+}
+.catalog-additional__content {
+  height: 288px;
+  display: grid;
+  grid-template-columns: 896px 245px;
+  -moz-column-gap: 79px;
+       column-gap: 79px;
+}
+.catalog-additional__promo {
+  background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url(../img/catalog/catalog-additional-promo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-row {
+  width: 896px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1px;
+}
+.card-row__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }/*# sourceMappingURL=style.css.map */
