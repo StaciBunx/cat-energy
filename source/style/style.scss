@@ -441,13 +441,6 @@ li {
     column-gap: 79px;
   }
 
-
-  &__promo {
-    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url(../img/catalog/catalog-additional-promo.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-
 }
 
 
@@ -479,5 +472,26 @@ li {
     height: 40px;
     padding-top: 8px;
     padding-bottom: 8px;
+  }
+}
+
+//Promo-additional
+.promo-additional {
+  height: 288px;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url(../img/catalog/catalog-additional-promo.jpg);
+  background-size: cover;
+  background-position: center;
+
+  &__text {
+    padding: 56px 42px 42px;
+    color: white;
+    text-align: center;
+  }
+
+  &__text::before {
+    content: url("../img/catalog/icon_gift.svg");
+    display: block;
   }
 }
