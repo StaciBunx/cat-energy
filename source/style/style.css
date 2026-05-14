@@ -379,6 +379,10 @@ li {
   padding-bottom: 8px;
 }
 
+.catalog-additional {
+  margin-bottom: 86px;
+}
+
 .promo-additional {
   height: 288px;
   display: flex;
