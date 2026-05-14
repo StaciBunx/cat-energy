@@ -362,10 +362,24 @@ li {
 
 .card-row {
   width: 896px;
+  height: 72px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1px;
+  grid-template-columns: 1fr 1fr 245px;
+  align-items: center;
+  border-top: 1px solid #cdcdcd;
+}
+.card-row:last-child {
+  border-bottom: 1px solid #cdcdcd;
 }
 .card-row__list {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 70% 30%;
+}
+.card-row__heading {
+  text-transform: uppercase;
+}
+.card-row__button {
+  height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }/*# sourceMappingURL=style.css.map */
