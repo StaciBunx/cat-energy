@@ -560,7 +560,6 @@ li {
   &__group_additional {
     grid-area: additional;
     margin-bottom: 60px;
-
   }
 
   &__group_button {
@@ -574,8 +573,19 @@ li {
 }
 
 .field {
-  &__lead {
+  &-group {
+    font-family: $heading;
+    font-weight: 400;
+    font-size: 20px;
     text-transform: uppercase;
     color: $special-dark-grey;
+  }
+
+  &__input {
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    text-transform: inherit;
+    color: inherit;
   }
 }

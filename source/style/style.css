@@ -449,7 +449,17 @@ li {
   flex-direction: column;
 }
 
-.field__lead {
+.field-group {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
   text-transform: uppercase;
   color: #444444;
+}
+.field__input {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  text-transform: inherit;
+  color: inherit;
 }/*# sourceMappingURL=style.css.map */
