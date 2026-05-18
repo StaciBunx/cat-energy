@@ -536,39 +536,48 @@ li {
       "button button";
   }
 
+  &__group {
+    display: flex;
+    flex-direction: column;
+  }
+
   &__group_cat {
+    height: 200px;
     grid-area: cat;
     margin-bottom: 70px;
+    border: none;
   }
 
   &__group_goal {
+    height: 200px;
     grid-area: goal;
     margin-bottom: 70px;
+    border: 1px solid #e7e7e7;
+
 
   }
 
   &__group_contacts {
     grid-area: contacts;
     margin-bottom: 80px;
+    border: none
   }
 
   &__group_comment {
     grid-area: comment;
     margin-bottom: 67px;
+    border: none
   }
 
   &__group_additional {
     grid-area: additional;
     margin-bottom: 60px;
+    border: none
   }
 
   &__group_button {
     grid-area: button;
-  }
 
-  &__group {
-    display: flex;
-    flex-direction: column;
   }
 }
 
@@ -587,5 +596,7 @@ li {
     font-size: inherit;
     text-transform: inherit;
     color: inherit;
+    border: 1px solid #e7e7e7;
+
   }
 }

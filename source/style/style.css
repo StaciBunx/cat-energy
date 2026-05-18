@@ -421,32 +421,39 @@ li {
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "cat goal" "contacts contacts" "comment comment" "additional additional" "button button";
 }
+.form__group {
+  display: flex;
+  flex-direction: column;
+}
 .form__group_cat {
+  height: 200px;
   grid-area: cat;
   margin-bottom: 70px;
+  border: none;
 }
 .form__group_goal {
+  height: 200px;
   grid-area: goal;
   margin-bottom: 70px;
+  border: 1px solid #e7e7e7;
 }
 .form__group_contacts {
   grid-area: contacts;
   margin-bottom: 80px;
+  border: none;
 }
 .form__group_comment {
   grid-area: comment;
   margin-bottom: 67px;
+  border: none;
 }
 .form__group_additional {
   grid-area: additional;
   margin-bottom: 60px;
+  border: none;
 }
 .form__group_button {
   grid-area: button;
-}
-.form__group {
-  display: flex;
-  flex-direction: column;
 }
 
 .field-group {
@@ -462,4 +469,5 @@ li {
   font-size: inherit;
   text-transform: inherit;
   color: inherit;
+  border: 1px solid #e7e7e7;
 }/*# sourceMappingURL=style.css.map */
