@@ -74,6 +74,10 @@ li {
   margin-bottom: 84px;
 }
 
+.main__section {
+  margin-bottom: 80px;
+}
+
 // Buttons
 
 .button {
@@ -507,7 +511,14 @@ li {
 
 .form-page {
   &__heading {
+    margin-bottom: 56px;
+  }
+
+  &__subheading {
+    width: 320px;
+    margin-bottom: 66px;
     text-transform: uppercase;
+
   }
 }
 
@@ -515,34 +526,41 @@ li {
 
   &__body {
     display: grid;
+    column-gap: 80px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "cat goal"
       "contacts contacts"
-      "additional additional"
       "comment comment"
+      "additional additional"
       "button button";
   }
 
   &__group_cat {
     grid-area: cat;
+    margin-bottom: 70px;
   }
 
   &__group_goal {
     grid-area: goal;
+    margin-bottom: 70px;
+
   }
 
   &__group_contacts {
     grid-area: contacts;
+    margin-bottom: 80px;
   }
-
 
   &__group_comment {
     grid-area: comment;
+    margin-bottom: 67px;
   }
 
-  &__group_comment {
+  &__group_additional {
     grid-area: additional;
+    margin-bottom: 60px;
+
   }
 
   &__group_button {

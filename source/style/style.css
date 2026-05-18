@@ -69,6 +69,10 @@ li {
   margin-bottom: 84px;
 }
 
+.main__section {
+  margin-bottom: 80px;
+}
+
 .button {
   display: block;
   min-height: 40px;
@@ -402,28 +406,40 @@ li {
 }
 
 .form-page__heading {
+  margin-bottom: 56px;
+}
+.form-page__subheading {
+  width: 320px;
+  margin-bottom: 66px;
   text-transform: uppercase;
 }
 
 .form__body {
   display: grid;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "cat goal" "contacts contacts" "additional additional" "comment comment" "button button";
+  grid-template-areas: "cat goal" "contacts contacts" "comment comment" "additional additional" "button button";
 }
 .form__group_cat {
   grid-area: cat;
+  margin-bottom: 70px;
 }
 .form__group_goal {
   grid-area: goal;
+  margin-bottom: 70px;
 }
 .form__group_contacts {
   grid-area: contacts;
+  margin-bottom: 80px;
 }
 .form__group_comment {
   grid-area: comment;
+  margin-bottom: 67px;
 }
-.form__group_comment {
+.form__group_additional {
   grid-area: additional;
+  margin-bottom: 60px;
 }
 .form__group_button {
   grid-area: button;
