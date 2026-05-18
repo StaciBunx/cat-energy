@@ -399,4 +399,41 @@ li {
 .promo-additional__text::before {
   content: url("../img/catalog/icon_gift.svg");
   display: block;
+}
+
+.form-page__heading {
+  text-transform: uppercase;
+}
+
+.form__body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "cat goal" "contacts contacts" "additional additional" "comment comment" "button button";
+}
+.form__group_cat {
+  grid-area: cat;
+}
+.form__group_goal {
+  grid-area: goal;
+}
+.form__group_contacts {
+  grid-area: contacts;
+}
+.form__group_comment {
+  grid-area: comment;
+}
+.form__group_comment {
+  grid-area: additional;
+}
+.form__group_button {
+  grid-area: button;
+}
+.form__group {
+  display: flex;
+  flex-direction: column;
+}
+
+.field__lead {
+  text-transform: uppercase;
+  color: #444444;
 }/*# sourceMappingURL=style.css.map */

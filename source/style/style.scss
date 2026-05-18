@@ -502,3 +502,62 @@ li {
     display: block;
   }
 }
+
+//Form
+
+.form-page {
+  &__heading {
+    text-transform: uppercase;
+  }
+}
+
+.form {
+
+  &__body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "cat goal"
+      "contacts contacts"
+      "additional additional"
+      "comment comment"
+      "button button";
+  }
+
+  &__group_cat {
+    grid-area: cat;
+  }
+
+  &__group_goal {
+    grid-area: goal;
+  }
+
+  &__group_contacts {
+    grid-area: contacts;
+  }
+
+
+  &__group_comment {
+    grid-area: comment;
+  }
+
+  &__group_comment {
+    grid-area: additional;
+  }
+
+  &__group_button {
+    grid-area: button;
+  }
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.field {
+  &__lead {
+    text-transform: uppercase;
+    color: $special-dark-grey;
+  }
+}
